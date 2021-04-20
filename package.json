@@ -1,0 +1,23 @@
+{
+  "name": "rts-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "rts": "./bin/rtscli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alien",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0",
+    "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
